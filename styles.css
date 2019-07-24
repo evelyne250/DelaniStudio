@@ -13,14 +13,18 @@ p {
     
 }
 #user{
-    position: relative;
-    color: #fff;
-    width:26%;
-    
+    top: 300px;
+    left:500px;
     }
+    #user1{
+        top: 300px;
+        left:800px;
+        }
     .backg{
         width:100%;
-        position: relative;
+        position: relative; 
+        top: 30%;
+        left:120px;
     }
     footer{
         background-color: white;
