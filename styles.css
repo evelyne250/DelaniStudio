@@ -5,12 +5,7 @@ h1{
     font-style: normal;
     margin: 300px
 }
-.logo>img{
-    float: left;
-    width: 150px;
-    height: auto;
-    margin-top: 250px;
-}
+
 p {
     display: inline-block;
     text-align: center;
@@ -22,4 +17,23 @@ p {
     color: #fff;
     width:26%;
     
+    }
+    .backg{
+        width:100%;
+        position: relative;
+    }
+    footer{
+        background-color: white;
+       font-style: italic;
+        text-align: center;
+        padding: 30px;
+        margin-top: 10%;
+    }
+    footer p {
+      position: relative;
+   
+      font-size:15px;
+        text-align: center;
+        padding-top:20px;
+        font-family: 'Times New Roman', Times, serif;
     }
