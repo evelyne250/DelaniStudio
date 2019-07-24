@@ -11,3 +11,15 @@ h1{
     height: auto;
     margin-top: 250px;
 }
+p {
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    
+}
+#user{
+    position: relative;
+    color: #fff;
+    width:26%;
+    
+    }
