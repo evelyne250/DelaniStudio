@@ -1,0 +1,13 @@
+h1{
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    margin: 300px
+}
+.logo>img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 250px;
+}
