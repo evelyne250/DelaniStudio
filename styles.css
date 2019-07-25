@@ -1,16 +1,38 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	height: auto;
+    background: white;
+}
+.container{
+	margin: inherit;
+    width: inherit;
+}
+
 h1{
     text-transform: uppercase;
     display: inline-block;
     text-align: center;
     font-style: normal;
-    margin: 300px
+   margin:250px;
+}
+h2{
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+}
+
+.logo{
+ 
+
 }
 
 p {
     display: inline-block;
     text-align: center;
     font-style: normal;
-    
 }
 #user{
     top: 300px;
@@ -21,10 +43,20 @@ p {
         left:800px;
         }
     .backg{
-        width:100%;
-        position: relative; 
-        top: 30%;
-        left:120px;
+      background-image: url("images/delani_image.jpg");
+      background-repeat: no-repeat;
+      background-size:100%;
+      text-align:center;
+      
+
+    }
+    .backg1{
+        background-image: url("images/delani2_image.jpg");
+    }
+    .backg2{
+        background-image: url("images/c_image.jpg");
+        width: 100%;
+
     }
     footer{
         background-color: white;
@@ -41,3 +73,21 @@ p {
         padding-top:20px;
         font-family: 'Times New Roman', Times, serif;
     }
+    #services{
+        color: white;
+        margin: 200px;
+        display: inline;
+    }
+  #services p{
+    color: white;
+   
+    display: inline;
+  }
+  .first{
+ 
+    display: flex;
+ }
+ .second{
+     display:flex;
+    
+ }
