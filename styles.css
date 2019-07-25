@@ -47,16 +47,45 @@ p {
       background-repeat: no-repeat;
       background-size:100%;
       text-align:center;
-      
-
     }
+
     .backg1{
         background-image: url("images/delani2_image.jpg");
+        background-size: 1260px;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-color: transparent;
     }
-    .backg2{
+    #services p{
+        font-family: sans-serif;
+        font-size: 45px;
+        padding-top: 40px;
+        margin-left: 30px;
+    }
+    #contact{
         background-image: url("images/c_image.jpg");
-        width: 100%;
-
+      width:100%;
+        background-repeat: no-repeat;
+      background-size: 100%;
+        text-align:center;
+    }
+    #user{
+        background-color: transparent;
+        border-color: grey;
+        border-style: solid;
+        border-width: medium;
+    }
+    #user1{
+        background-color: transparent;
+        border-color: grey;
+        border-style: solid;
+        border-width: medium;
+    }
+    #user2{
+        background-color: transparent;
+        border-color: grey;
+        border-style: solid;
+        border-width: medium;
     }
     footer{
         background-color: white;
@@ -91,3 +120,21 @@ p {
      display:flex;
     
  }
+ #submit{
+    
+    text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-weight: bolder;
+  font-style: normal;
+  font-display: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+#submit:hover{
+    box-shadow: 0 0 10px rgba(77, 89, 245, 0.986), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgb(12, 209, 111);
+  color: rgba(20, 190, 139, 0.808);
+  list-style: none;
+
+}
