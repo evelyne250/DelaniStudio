@@ -5,9 +5,8 @@ body{
 	height: auto;
     background: white;
 }
-.container{
-	margin: inherit;
-    width: inherit;
+.container p{
+	display: none;
 }
 
 h1{
