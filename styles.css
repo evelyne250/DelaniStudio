@@ -90,6 +90,7 @@ header{
     h4{
         text-align: center;
         font-size:30px;
+        text-transform: uppercase;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
@@ -186,5 +187,71 @@ header{
   background: rgb(12, 209, 111);
   color: rgba(20, 190, 139, 0.808);
   list-style: none;
+}
+#work{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#work1{
+    cursor: pointer;
+}
+#work2{
+    cursor: pointer;
+}
+#work3{
+    cursor: pointer;
+}
+#work4{
+    cursor: pointer;
+}
+#work5{
+    cursor: pointer;
+}
+#work6{
+    cursor: pointer;
+}
+#work7{
+    cursor: pointer;
+}
+ /* .wor1 h6{
+position: absolute;
+text-align: center;
+width: 90%;
+height: 88%;
+transform: translate(-50%);
+top: 5px;
+left: 45px;
+background-color: black;
+} */
+.wor, .wor1, .wor2, .wor3, .wor4, .wor5, .wor6, .wor7{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 30px;
+  
+    color: black;
+transform: translate(-50%, -50%);
+width: 80%;
+font-family: sans-serif;
+top: 40%;
+left:50%;
+text-align: center;
+height: 90%;
+/* 
+padding: 0;
+margin: 0; */
+}
 
+.wor > h6, .wor1>h6, .wor2>h6, .wor3>h6, .wor4>h6, .wor5>h6, .wor6>h6, .wor7>h6{
+text-transform: uppercase;
+position: absolute;
+transform: translate(-50%);
+width: 100%;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+top: 50%;
+left: 50%;
+padding: 0;
+margin: 0;
+font-size: 20px;
 }
