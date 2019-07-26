@@ -17,8 +17,4 @@ $(document).ready(function() {
     });
   });
 
-  $(document).ready(function(){
-    $(".work").hover(function(){
-      $(this).css("background-color", "yellow");
-    });
-});
+ 
