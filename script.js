@@ -52,68 +52,98 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $("#work1").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
+  $(".wor1").hide();
+  $("#work1").css({
+   opacity:1
+ });
+  $("#wo1").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor1").fadeIn();
     }, function(){
       $(this).stop().css({opacity:1})
-    $(this).fadeout();
+    $(".wor1").fadeOut();
+  });
+});
+
+$(document).ready(function(){
+  $(".wor2").hide();
+  $("#work2").css({
+   opacity:1
+ });
+  $("#wo2").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor2").fadeIn();
+    }, function(){
+      $(this).stop().css({opacity:1})
+    $(".wor2").fadeOut();
   });
 });
 $(document).ready(function(){
-  $("#work2").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
+  $(".wor3").hide();
+  $("#work3").css({
+   opacity:1
+ });
+  $("#wo3").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor3").fadeIn();
     }, function(){
       $(this).stop().css({opacity:1})
-    $(this).fadeout();
+    $(".wor3").fadeOut();
   });
 });
 $(document).ready(function(){
-  $("#work3").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
+  $(".wor4").hide();
+  $("#work4").css({
+   opacity:1
+ });
+  $("#wo4").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor4").fadeIn();
     }, function(){
       $(this).stop().css({opacity:1})
-    $(this).fadeout();
+    $(".wor4").fadeOut();
   });
 });
 $(document).ready(function(){
-  $("#work4").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
+  $(".wor5").hide();
+  $("#work5").css({
+   opacity:1
+ });
+  $("#wo5").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor5").fadeIn();
     }, function(){
       $(this).stop().css({opacity:1})
-    $(this).fadeout();
+    $(".wor5").fadeOut();
   });
 });
 $(document).ready(function(){
-  $("#work5").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
+  $(".wor6").hide();
+  $("#work6").css({
+   opacity:1
+ });
+  $("#wo6").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor6").fadeIn();
     }, function(){
       $(this).stop().css({opacity:1})
-    $(this).fadeout();
+    $(".wor6").fadeOut();
   });
 });
 $(document).ready(function(){
-  $("#work6").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
+  $(".wor7").hide();
+  $("#work7").css({
+   opacity:1
+ });
+  $("#wo7").hover(function(){
+    $(this).stop().css({opacity:.4});
+    $(".wor7").fadeIn();
     }, function(){
       $(this).stop().css({opacity:1})
-    $(this).fadeout();
+    $(".wor7").fadeOut();
   });
 });
-$(document).ready(function(){
-  $("#work7").hover(function(){
-    $(this).stop().css({opacity:.3});
-    $(this).fadein();
-    }, function(){
-      $(this).stop().css({opacity:1})
-    $(this).fadeout();
-  });
-});
+
 // 
 //     alert("we have received your response,  Thank you for reaching out to us.");
 //   
