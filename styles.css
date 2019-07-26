@@ -1,10 +1,10 @@
 
-body{
+/* body{
 	margin: 0;
 	padding: 0;
 	height: auto;
     background: white;
-}
+} */
 .container p{
 	display: none;
 }
@@ -164,15 +164,23 @@ font-weight: bold;
         background-color: transparent;
         border-color: grey;
         border-style: solid;
+        top: 150px;
+        left: 250px;
         /* border-width: medium; */
     }
     #user1{
         background-color: transparent;
         border-color: grey;
         border-style: solid;
+        top: 150px;
+        left: 650px;
+        /* position: relative; */
         /* border-width: medium; */
     }
     #user2{
+        /* position: absolute; */
+        top: 200px;
+        left: 250px;
         background-color: transparent;
         border-color: grey;
         border-style: solid;
@@ -189,15 +197,15 @@ font-weight: bold;
        font-style: italic;
         text-align: center;
         padding: 30px;
-        margin-top: 10%;
+        margin-top: 20px;
     }
     footer p {
-      position: relative;
-   
+      /* position: relative;
+    */
       font-size:15px;
         text-align: center;
-        padding-top:20px;
-        font-family: 'Times New Roman', Times, serif;
+        padding-top:10px;
+        /* font-family: 'Times New Roman', Times, serif; */
     }
     #services{
         color: white;
@@ -225,18 +233,21 @@ font-weight: bold;
     
     text-transform: uppercase;
   text-decoration: none;
-  color: white;
-  display: inline-block;
-  font-weight: bolder;
-  font-style: normal;
-  font-display: normal;
-  font-family: 'Times New Roman', Times, serif;
+  width: 190px;
+margin: 4px 2px; 
+margin-left: 40%;
+}
+::placeholder{
+    color: white;
+}
+.form-control{
+    margin-left: 30%;
 }
 #submit:hover{
     box-shadow: 0 0 10px rgba(77, 89, 245, 0.986), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgb(12, 209, 111);
   color: rgba(20, 190, 139, 0.808);
-  list-style: none;
+ 
 }
 #work{
     position: relative;
