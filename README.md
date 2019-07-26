@@ -16,14 +16,10 @@ A github account a repository on github account a terminal to push my workings o
 ## What I Used
 {Making this website i used html and css and javascript and jsQuery made use of div, h, p, br, form and more tags, But to make my website look good as it is I used Bootstrap and some other properties to style it as it is and i added input, labels and jsQuery to make my project responsive}
 
-## contact details
-tel: 0783985988 
-githubAccount: Evelyne250 
-Email: uevelyne44@gmail.com 
-Wecode Rwanda
+
 
 ## The link to my website gh-pages:
-
+https://evelyne250.github.io/DelaniStudio/
 
 ## License
 MIT License
