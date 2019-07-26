@@ -14,7 +14,7 @@ Names : Umuhire evelyne
 A github account a repository on github account a terminal to push my workings on the github repository bootstrap and styles css to style the html file use of javascript for the application to be responsive github pages and javascript query to perfom some events to our html 
 
 ## What I Used
-{Making this website i used html and css and javascript and jsQuery made use of div, h, p, br, form and more tags, But to make my website look good as it is I used Bootstrap and some other properties to style it as it is and i added input, labels and jsQuery to make my project responsive}
+{Making this website i used html and css and javascript and jsQuery made use of div, h, p, br, form and more tags, But to make my website look good as it is I used Bootstrap and some other properties to style it as it is and i added input, labels and jsQuery to make my project responsive and used google fonts.}
 
 
 
