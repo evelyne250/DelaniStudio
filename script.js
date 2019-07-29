@@ -143,19 +143,6 @@ $(document).ready(function(){
     $(".wor7").fadeOut();
   });
 });
-
-
-//     alert("we have received your response,  Thank you for reaching out to us.");
-  
-// });
-// $(document).ready(function(){
-// $("form").submit(function(){
-// var nameIs= document.getElementById("user");
-// var email= document.getElementById("user1");
-// var comment= document.getElementById("user2");
-// alert('Hi  ' +  nameIs.value + ' Thank you for reaching out to us.');
-// });
-// });
 $(document).ready(function(){
   $("form").submit(function (event) {
 var inputName = $("#user").val();
@@ -170,3 +157,6 @@ else {
 event.preventDefault();
 });
 });
+
+  
+
