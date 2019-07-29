@@ -144,15 +144,29 @@ $(document).ready(function(){
   });
 });
 
-// 
+
 //     alert("we have received your response,  Thank you for reaching out to us.");
-//   
+  
+// });
+// $(document).ready(function(){
+// $("form").submit(function(){
+// var nameIs= document.getElementById("user");
+// var email= document.getElementById("user1");
+// var comment= document.getElementById("user2");
+// alert('Hi  ' +  nameIs.value + ' Thank you for reaching out to us.');
+// });
 // });
 $(document).ready(function(){
-$("form").submit(function(){
-var nameIs= document.getElementById("user");
-var email= document.getElementById("user1");
-var comment= document.getElementById("user2");
-alert('Hi  ' +  nameIs.value + ' Thank you for reaching out to us.');
+  $("form").submit(function (event) {
+var inputName = $("#user").val();
+var inputEmail = $("#user1").val();
+var x = $("#user2").val();
+if (inputName == "" || inputEmail == "" || x == "") {
+  alert("invalid input");
+}
+else {
+  alert('Hi  ' +  inputName + ' Thank you for reaching out to us.');
+}
+event.preventDefault();
 });
 });
